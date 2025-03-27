@@ -34,9 +34,9 @@ class MainActivity : AppCompatActivity() {
     private fun getFood(){
 
         val food1 = Food(
-            imgFood = R.drawable.imagem1,
+            imgFood = R.drawable.img11,
             foodName = "Food Nome 1",
-            foodDescription = "",
+            foodDescription = "Bateu a fome? Vem saborear os melhores lanches! Pedido rápido e sabor garantido!",
             price = "$ 120.00"
 
 
@@ -45,24 +45,34 @@ class MainActivity : AppCompatActivity() {
 
 
             val food2 = Food(
-                imgFood = R.drawable.imagem2,
+                imgFood = R.drawable.img22,
                 foodName = "Food Nome 2",
-                foodDescription = "",
+                foodDescription = "Bateu a fome? Vem saborear os melhores lanches! Pedido rápido e sabor garantido!",
                 price = "$ 80,00"
 
 
             );
-            foodList.add(food1)
+            foodList.add(food2)
 
 
             val food3 = Food(
-                imgFood = R.drawable.imagen3,
+                imgFood = R.drawable.img33,
                 foodName = "Food Nome 3",
-                foodDescription = "",
+                foodDescription = "Bateu a fome? Vem saborear os melhores lanches! Pedido rápido e sabor garantido!",
                 price = "$ 45,00"
 
 
             );
-            foodList.add(food1)
+            foodList.add(food3)
+
+        val food4 = Food(
+            imgFood = R.drawable.img44,
+            foodName = "Food Nome 4",
+            foodDescription = "Bateu a fome? Vem saborear os melhores lanches! Pedido rápido e sabor garantido!",
+            price = "$ 75,00"
+
+
+        );
+        foodList.add(food4)
     }
 }
